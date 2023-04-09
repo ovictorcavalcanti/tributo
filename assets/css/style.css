@@ -1,0 +1,259 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-family: "Mukta", Arial, Helvetica, sans-serif;
+  color: #212328;
+  list-style: none;
+}
+
+html {
+  font-size: 16px;
+  line-height: 21px;
+}
+
+body {
+  background-color: #fafaff;
+  padding-top: 40px;
+}
+
+.container {
+  margin-inline: auto;
+  display: block;
+  min-width: 320px;
+  max-width: 990px;
+  padding: 0 20px;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+a {
+  font-weight: bold;
+  color: #00519d;
+  text-transform: uppercase;
+}
+
+p:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.textos {
+  flex: 2;
+  min-width: 300px;
+}
+
+.polaroid {
+  box-shadow: 0px 2px 4px -2px rgba(0, 0, 0, 0.2);
+  flex: 1;
+  min-width: 290px;
+  width: 100%;
+  padding: 20px 20px 40px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.polaroid img {
+  margin-bottom: 40px;
+  border-radius: 2px;
+}
+
+.polaroid figcaption {
+  font-size: 18px;
+  font-family: "Tillana", "Mukta", "Arial", sans-serif;
+}
+
+.titulo-secao {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #2d3047;
+  text-transform: uppercase;
+}
+
+ul li {
+  padding: 8px 0;
+}
+
+.premios ul li + li {
+  border-top: 1px solid #8388af;
+}
+
+.musica {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 16px;
+  text-align: center;
+  min-width: 160px;
+}
+
+.musica a {
+  text-decoration: none;
+  color: #2d3047;
+}
+
+.musica a span {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.musica a img {
+  margin-bottom: 16px;
+}
+
+.disco {
+  box-shadow: 0 2px 4px -2px #8388afae;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  flex: 1;
+  min-width: 260px;
+  padding: 20px;
+  background-color: #fff;
+  border-bottom: none;
+}
+
+.disco-capa {
+  border-radius: 2px;
+}
+
+.album-info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+}
+
+.album-dado {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 0;
+  font-size: 14px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.album-dado + .album-dado {
+  border-top: 1px solid #ddd;
+}
+
+.btn-ouca {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 8px 16px;
+  background-color: #2d3047;
+  border-radius: 8px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-ouca i {
+  color: #fff;
+}
+
+.footer {
+  margin-top: 60px;
+  padding: 10px;
+  background-color: #2d3047;
+  color: #fff;
+  text-align: center;
+}
+
+.footer p {
+  margin-bottom: 0;
+  color: #fff;
+}
+
+.footer a {
+  font-weight: normal;
+  color: currentColor;
+  text-transform: unset;
+}
+
+.btn-acao {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  min-width: 200px;
+  padding: 8px 16px;
+  background-color: #333;
+  border-radius: 5px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  gap: 8px;
+  box-shadow: 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+}
+
+.links-relevantes .flex {
+  gap: 20px;
+}
+
+.btn-acao i {
+  color: #fff;
+  font-size: 20px;
+}
+
+.spotify {
+  background-color: #1db954;
+}
+
+.youtube {
+  background-color: #ff0000;
+}
+
+.instagram {
+  background-color: #e1306c;
+}
+
+.site {
+  background-color: #006699;
+}
+
+.bx {
+  line-height: unset;
+}
+
+@media screen and (max-width: 900px) {
+  .discografia .flex {
+    flex-direction: column;
+  }
+
+  .titulo-secao {
+    margin-top: 60px;
+  }
+
+  .footer {
+    margin-top: 30px;
+  }
+
+  .btn-acao {
+    min-width: 50%;
+  }
+
+  .musica {
+    min-width: 200px;
+  }
+}
