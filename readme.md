@@ -1,3 +1,3 @@
-Just a small tribute to Of Monsters and Men. ❤️
+Just a small tribute to Of Monsters and Men.
 
-You can ignore this repo.
+You can completely ignore this repo.

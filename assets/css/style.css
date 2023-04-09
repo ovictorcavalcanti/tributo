@@ -102,7 +102,6 @@ ul li {
   flex-direction: column;
   flex: 1;
   gap: 16px;
-  text-align: center;
   min-width: 160px;
 }
 
@@ -113,6 +112,7 @@ ul li {
 
 .musica a span {
   display: flex;
+  justify-content: center;
   align-items: center;
   gap: 4px;
 }
